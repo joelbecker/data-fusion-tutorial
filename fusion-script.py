@@ -16,3 +16,4 @@ comp.string('grid-name', 'scraped-name')
 preds = [(1 if i >= .9 else 0) for i in comp.vectors[0]]
 
 fuse = rl.FuseLinks()
+
